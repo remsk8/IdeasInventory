@@ -16,21 +16,21 @@
         <scoped_administration>false</scoped_administration>
         <short_description/>
         <source>x_agsa_ideas_inven</source>
-        <store_correlation_id/>
+        <store_correlation_id>REPOAPP0000043737</store_correlation_id>
         <store_url/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-11-21 09:55:42</sys_created_on>
         <sys_id>4d6887fd4faa4f40dfea92918110c7f1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-21 09:55:42</sys_updated_on>
+        <sys_updated_on>2017-11-21 10:33:34</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="x_agsa_ideas_inven.user" name="x_agsa_ideas_inven.user">8568c7fd4faa4f40dfea92918110c70c</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </sys_app>
 </record_update>
