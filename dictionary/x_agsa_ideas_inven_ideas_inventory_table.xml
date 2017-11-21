@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" label="Ideas inventory Table" max_length="40" name="x_agsa_ideas_inven_ideas_inventory_table" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="300" name="u_description" type="string"/>
+        <element label="Ideas from" max_length="32" name="u_ideas_from" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_ideas_from"/>
+        </index>
+    </element>
+</database>
